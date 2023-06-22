@@ -28,22 +28,20 @@ public class AcceptDismiss {
 			
 			//Automatic call alert
 			WebElement alert2=driver.findElement(By.id("j_idt88:j_idt93"));
-			alert2.click();
-			Thread.sleep(3000);
-			
-			//automatic open and dismiss
+			alert2.click();			
+			Thread.sleep(3000);		
+		//automatic open and dismiss
 			org.openqa.selenium.Alert alert3=driver.switchTo().alert();
-			alert3.dismiss();
+			alert3.dismiss();			
 			
-			
-			//Automatic alert and enter the value
-			WebElement alert4=driver.findElement(By.id("j_idt88:j_idt104"));
-			alert4.click();
-			Thread.sleep(3000);
-			
-			org.openqa.selenium.Alert prompt=driver.switchTo().alert();
-			prompt.sendKeys("star");
-			prompt.accept();
+//			//Automatic alert and enter the value
+//			WebElement alert4=driver.findElement(By.id("j_idt88:j_idt104"));
+//			alert4.click();
+//			Thread.sleep(3000);
+//			
+//			org.openqa.selenium.Alert prompt=driver.switchTo().alert();
+//			prompt.sendKeys("star");
+//			prompt.accept();
 
 	}
 

@@ -23,10 +23,11 @@ public class perform {
 		WebElement login = driver.findElement(By.id("loginButton"));
 			
 			Actions act=new Actions(driver);
+	
 			act.sendKeys(data,"star").perform();
 			act.sendKeys(pass,"manager").perform();
-		act.sendKeys(data,"admin").perform();
-		act.sendKeys(pass,"maoonager").perform();
+		    act.sendKeys(data,"admin").perform();
+		 act.sendKeys(pass,"manager").perform();
 		act.sendKeys(login).perform();
 
 	}

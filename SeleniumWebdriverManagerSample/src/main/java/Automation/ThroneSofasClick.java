@@ -26,9 +26,9 @@ public class ThroneSofasClick {
 	 Actions act1=new Actions(driver);
 		act1.moveToElement(from).perform();
 			Thread.sleep(3000);
-//			WebElement from1  = driver.findElement(By.xpath("(//*[@class='nav-link scrollto'])[6]"));
-//			Actions act2=new Actions(driver);
-//			act2.moveToElement(from1).perform();
+			WebElement from1  = driver.findElement(By.xpath("(//*[@class='nav-link scrollto'])[6]"));
+			Actions act2=new Actions(driver);
+			act2.moveToElement(from1).perform();
 //			WebElement from2  = driver.findElement(By.xpath("//*[@class='service-icon orange'][7]"));
 //			Actions act3=new Actions(driver);
 //			act2.moveToElement(from2).perform();

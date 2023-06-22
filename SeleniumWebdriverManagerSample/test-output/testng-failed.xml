@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.Thronereclinerheaderclickingfunction">
+      <class name="Enetwork.EnetworkAutomation">
         <methods>
-          <include name="throne"/>
+          <include name="enetworkbrowser"/>
+          <include name="EnetworkfooterArea"/>
+          <include name="Elshaddainetworksollution"/>
+          <include name="Softwaresollutionpage"/>
+          <include name="closed"/>
         </methods>
-      </class> <!-- Automation.Thronereclinerheaderclickingfunction -->
+      </class> <!-- Enetwork.EnetworkAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

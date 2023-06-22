@@ -11,7 +11,6 @@ public class AmazontittleGET {
 		// TODO Auto-generated method stub
 		  WebDriverManager.edgedriver();
 	        WebDriver driver = new ChromeDriver();
-//	        WebDriver driver1=new ChromeDriver();
 	        driver.get("https://www.amazon.in/");
 	      String title1=  driver.getTitle();
 	       System.out.println(title1);
